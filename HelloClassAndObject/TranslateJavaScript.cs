@@ -110,6 +110,14 @@
         public static void Demo4()
         {
             // JSON
+            var searchResult = new SearchResult
+            {
+                total = 17,
+                result = new Result[]
+                {
+                    new Result()
+                }
+            };
         }
     }
 }
